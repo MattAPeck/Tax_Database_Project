@@ -3,7 +3,7 @@ from contextlib import contextmanager
 
 # I just straight up provided the Database URL for this project. I couldn't figure out how to get .env file working.
 
-database_url = 'postgres://mqakozis:NQk6YDcpjBtbaDpaeJkgk2dpycTQXt7Y@jelani.db.elephantsql.com/mqakozis'
+database_url = ''
 if not database_url:
     print('Please enter a correct database url')
 
